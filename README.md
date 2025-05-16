@@ -13,3 +13,18 @@ To install the required dependencies, run the following command:
 
 ```bash
 pip install -r requirements.txt
+
+## Ollama Setup
+
+Our base models are all downloaded via [Ollama](https://ollama.com/).  
+To use our code, you need to install and set up Ollama on your local machine.
+
+You can follow the official installation guide here:  
+👉 [https://ollama.com/](https://ollama.com/)
+
+Once installed, make sure to pull the required models before running the program.  
+For example:
+
+```bash
+ollama run llama3
+
