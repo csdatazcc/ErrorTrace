@@ -30,3 +30,13 @@ For example:
 ollama run llama3
 ```
 
+## Dataset
+
+We use publicly available benchmark datasets in this project.  
+All datasets are placed in the `data/` folder.
+
+Please note:  
+You will need to **generate erroneous data yourself** based on the dataset you choose to use with our method.  
+Our code does not include automatic error generation, as this process may vary depending on the dataset and task.
+
+
